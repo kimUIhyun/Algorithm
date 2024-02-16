@@ -11,7 +11,7 @@ int main() {
     cin >> n >> m;
 
     int arr[n+1][n+1];
-    int p[n+1][n+1];
+    int p[n+1][n+1];    // 누적합 배열 -> 동적 프로그래밍
     memset(p, 0, sizeof(p));
 
     for(int i = 1; i <= n; i++)
