@@ -27,7 +27,8 @@ int main() {
             else sum += 0;
         }
         if(sum >= m) {
-            h = max(h, mid);
+            // h = max(h, mid);
+            h = mid;
             low = mid + 1;
         }
         else {
